@@ -14,7 +14,8 @@ bom {
 			issueLabels = ["type: dependency-upgrade"]
 		}
 	}
-	library("ActiveMQ", "5.16.2") {
+//	library("ActiveMQ", "5.16.2") {
+	library("ActiveMQ", "5.15.10") {
 		group("org.apache.activemq") {
 			modules = [
 				"activemq-amqp",
@@ -527,7 +528,8 @@ bom {
 			]
 		}
 	}
-	library("Jackson Bom", "2.12.4") {
+//	library("Jackson Bom", "2.12.4") {
+	library("Jackson Bom", "2.10.0") {
 		group("com.fasterxml.jackson") {
 			imports = [
 				"jackson-bom"
@@ -1246,7 +1248,7 @@ bom {
 			]
 		}
 	}
-	library("MySQL", "8.0.26") {
+	library("MySQL", "8.0.18") {
 		group("mysql") {
 			modules = [
 				"mysql-connector-java" {
